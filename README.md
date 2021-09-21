@@ -12,7 +12,7 @@ MIT License
 # Build Docker Image for reviews service
 docker build -t reviews .
 
-# Run reviews service on port 8080
+# Run reviews service on port 8082
 docker run -d --name reviews -p 8082:9080 reviews
 ```
 
