@@ -1,5 +1,7 @@
 # MULTISTAGE Build
-FROM gradle:6.0.1-jdk11 AS builder
+# FROM gradle:6.0.1-jdk11 AS builder
+FROM gradle:7.2.0-jdk16 AS builder
+# Version as of Oct 04, 2021
 WORKDIR /opt/java/
 COPY . /opt/java/
 RUN gradle clean build
