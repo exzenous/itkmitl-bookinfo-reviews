@@ -18,6 +18,13 @@ docker run -d --name reviews -p 8082:9080 reviews
 
 * Test with path `/reviews/1` and `/health`
 
+## Available Environment Variables
+- ENABLE_RATINGS : ```boolean```
+- STAR_COLOR : ```string```
+- RATINGS_SERVICE : ```string```
+    - Ex. http://localhost:9080/ratings
+
+
 ## Website
 
 [Opsta (Thailand) Co., Ltd.](https://www.opsta.co.th)
