@@ -22,5 +22,7 @@ spec:
         env:
         - name: ENABLE_RATINGS
           value: "true"
+        - name: RATINGS_SERVICE
+          value: "http://bookinfo-dev-ratings:8080/ratings"
       imagePullSecrets:
       - name: registry-bookinfo
